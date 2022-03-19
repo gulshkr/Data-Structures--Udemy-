@@ -4,9 +4,10 @@
 using namespace std;
 // int duplicateUsingHashing(int A[],int n){
 //     for(int =0;i<n;i++){
-//         H[A[i]]++;  //H - Hashing//
+//         Hash[A[i]]++;  //Hash - Hashing//
 //     }
-//     for(int i=0;i<)
+//     for(int i=0;i<=max_no;i++)// max_index of the hashing which will be the max element of the Array
+//     if(Hash[i]>1) cout<<i<<Hash[i];
 // }
 int main(){
     int n;
@@ -14,7 +15,7 @@ int main(){
     cin>>n;
     int A[n];
 
-        cout<<"Enter the element: ";
+    cout<<"Enter the element: ";
     for(int i=0;i<n;i++)
         cin>>A[i];
 
