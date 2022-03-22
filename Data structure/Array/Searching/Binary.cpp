@@ -84,7 +84,7 @@ int BinarySearch(struct Array arr, int key)
     }
     return -1;
 }
-int RBinSearch(int a[], int l, int h, int key)
+int RBinSearch(int a[], int l, int h, int key)   //Recursive Binary search//
 {
     int mid;
 
@@ -316,6 +316,8 @@ struct Array *Difference(struct Array *arr1, struct
 
     return arr3;
 }
+
+
 int main()
 {
     struct Array arr1;
