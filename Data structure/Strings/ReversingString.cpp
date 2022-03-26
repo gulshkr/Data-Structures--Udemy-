@@ -22,7 +22,7 @@
 using namespace std;
 int main(){
     char A[] ="GulshHello";
-    char temp;  // You can take t as temporary variable
+    char temp;  
     int i,j;
     for(j=0;A[j]!='\0';j++){
 
@@ -33,6 +33,6 @@ int main(){
         A[i]=A[j];
         A[j]=temp;
     }
-    cout<<"Revesed element is "<<A<<endl;
+    cout<<"Reversed element is "<<A<<endl;
     return 0;
 }
